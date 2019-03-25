@@ -23,7 +23,7 @@ public class FirstFilter implements Filter{
 	public void doFilter(ServletRequest request, ServletResponse response,
 			FilterChain chain) throws IOException, ServletException {
 		
-		System.out.println("start doFilter FirstFilter........");
+		System.out.println("start doFilter FirstFilter..........");
 		
 		HttpServletRequest req=(HttpServletRequest)request;
 		HttpServletResponse rsp=(HttpServletResponse)response;
